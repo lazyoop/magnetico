@@ -18,6 +18,24 @@ This allows anyone with a decent Internet connection to access the vast amount o
 **magnetico** liberates BitTorrent from the yoke of centralised trackers & web-sites and makes it
 *truly decentralised*. Finally!
 
+## Project Status
+
+Due to personal life reasons, updates have been on hold for a while. The `dev` branch is where active development and modifications are taking place. Other branches may be used for feature development or pull requests.
+
+### Features
+
+1. **YAML-Based Configuration**  
+   After recent changes, the project can now be started using a YAML configuration file. You can run `./magnetico -h` to view available options and usage instructions. A sample configuration file is provided as `config.example.yml`, which you can customize to fit your needs.
+
+2. **RabbitMQ Integration**  
+   The system supports consuming data from a RabbitMQ queue and persisting it into an SQL database.
+
+3. **Customizable Network Settings**  
+   Users can define their own bootstrap nodes and communication ports.
+
+4. **Private Repository Features**  
+   Some additional features have not yet been pushed from my private Gitea repository to this GitHub repository.
+   
 # **Warning ⚠**:
 **This repository is based on the secondary development of [tgragnato/magnetico](https://github.com/tgragnato/magnetico.git), the code may not be fully tested and there are bugs.**
 
